@@ -19,5 +19,4 @@ def rename_files(oldName, newName):
 
     return result
 
-
 print(rename_files(pathPart_to_change, newPhrase))
