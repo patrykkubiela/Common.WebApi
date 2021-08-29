@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System.Collections.Generic;
 
-namespace HealthShield.QRCode.Service.Model
+namespace Common.WebApi.Model
 {
     public class ParameterName
     {

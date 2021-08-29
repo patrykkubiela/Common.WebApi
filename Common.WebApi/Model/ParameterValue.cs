@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace HealthShield.QRCode.Service.Model
+namespace Common.WebApi.Model
 {
     public class ParameterValue
     {

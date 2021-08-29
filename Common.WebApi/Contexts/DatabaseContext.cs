@@ -1,7 +1,7 @@
-﻿using HealthShield.QRCode.Service.Model;
+﻿using Common.WebApi.Model;
 using Microsoft.EntityFrameworkCore;
 
-namespace HealthShield.QRCode.Service.Contexts
+namespace Common.WebApi.Contexts
 {
     public class DatabaseContext : DbContext
     {

@@ -1,5 +1,5 @@
-using HealthShield.QRCode.Service.Configuration;
-using HealthShield.QRCode.Service.Contexts;
+using Common.WebApi.Configuration;
+using Common.WebApi.Contexts;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -7,7 +7,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
 
-namespace HealthShield.QRCode.Service
+namespace Common.WebApi
 {
     public class Startup
     {

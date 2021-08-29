@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace HealthShield.QRCode.Service
+namespace Common.WebApi
 {
     public class Program
     {

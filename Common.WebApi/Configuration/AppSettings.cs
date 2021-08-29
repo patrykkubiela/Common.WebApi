@@ -1,4 +1,4 @@
-namespace HealthShield.QRCode.Service.Configuration
+namespace Common.WebApi.Configuration
 {
     public class AppSettings
     {

@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace HealthShield.QRCode.Service.Controllers
+namespace Common.WebApi.Controllers
 {
     [ApiController]
     [Route("[controller]")]
