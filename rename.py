@@ -14,9 +14,15 @@ def rename_files(oldName, newName):
                 old_fullFileName = root + "/" + filename
                 newFileName = filename.replace(oldName, newName)
                 new_fullFileName = root + "/" + newFileName
-                # os.rename(old_fullFileName, new_fullFileName)
-                result.append({old_fullFileName, new_fullFileName})
+                os.rename(old_fullFileName, new_fullFileName)
+
+        for dirname in dirs:
+            if(oldName in dirname):
+                old_fullDirName = root + "/" + dirname
+                newDirName = dirname.replace(oldName, newName)
+                new_fullDirName = root + "/" + newDirName
+                os.rename(old_fullDirName, new_fullDirName)
 
     return result
 
-print(rename_files(pathPart_to_change, newPhrase))
+rename_files(pathPart_to_change, newPhrase)
